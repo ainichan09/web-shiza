@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background: palevioletred;
+            margin: 0;
+            padding: 0;
+            gap: 20px;
+
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .header {
+            background: white;
+            min-width: 100%;
+           padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 2%;
+        }
+
+        .card {
+            background: white;
+            width: 10px;
+            height: 400px;
+            margin: 10px;
+            padding: 10px;
+            flex: 10.2%;
+            display: flex;
+            border-radius: 5px;
+
+
+
+        }
+
+        img {
+            width: 100%;
+            height: 65%;
+        }
+        @media (max-width: 500px) {
+            .card{
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>shiza florist</h1>
+    </div>
+ <div class="container">
+    <div class="card">
+
+        <img src="satu.jpg" alt="">
+    </div>
+    <div class="card">
+
+        <img src="satu.jpg" alt="">
+    </div>
+    <div class="card">
+
+        <img src="satu.jpg" alt="">
+    </div>
+</div>
+</body>
+
+</html>
